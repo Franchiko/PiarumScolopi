@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Scolopi Piarum Formation</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter & Lora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Lora:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/LogoSoloTransparente-1-300x300.png" type="image/x-icon">
+</head>
+<body class="bg-teal-50 text-gray-700">
+
+    
+    <!-- Encabezado -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-left">
+                    <h1 class="text-3xl font-bold text-teal-800 p-8">Familia y Fe</h1>
+                </div>
+                <!-- Barra de Navegación para Escritorio -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="./index.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Formación</a>
+                    <a href="./apologetica.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Apologética</a>
+                    <a href="./noticias.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Noticias</a>
+                    <a href="./podcasts.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Podcasts</a>
+                    <a href="./catecismo.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Catecismo</a>
+                    <a href="./oraciones.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Oraciones</a>
+                    <a href="./santos.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Vidas de Santos</a>
+                    <a href="./producciones.html" class="text-gray-600 hover:text-teal-600 font-semibold transition-colors">Producciones</a>
+                </nav>
+                <!-- Botón de Menú para Móvil -->
+                <div class="md:hidden">
+                    <button id="menu-btn" class="text-teal-800 focus:outline-none">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <!-- Menú Desplegable para Móvil -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4">
+                <a href="./index.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Formación</a>
+                <a href="./apologetica.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Apologética</a>
+                <a href="./noticias.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Noticias</a>
+                <a href="./podcasts.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Podcasts</a>
+                <a href="./catecismo.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Catecismo</a>
+                <a href="./oraciones.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Oraciones</a>
+                <a href="./santos.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Vidas de Santos</a>
+                <a href="./producciones.html" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-100 rounded">Producciones Católicas</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main class="container mx-auto px-6 py-12">
+        
+        <!-- Título de la sección -->
+        <h2 class="text-3xl font-bold text-center text-teal-700 mb-10">Nuestra Selección de Videos</h2>
+
+        <!-- Rejilla de Videos -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Video 1: Que No te la cuenten -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/tQHobfpFFDE?si=H6xudA9H4xexgcMt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Catequesis para Bárbaros</h3>
+                    <p class="text-gray-600 my-4">Aprende las verdades de la fé de la mano del P. Javier Olivera Ravasi, presbitero de la Orden de San Elías</p>
+                    <a href="https://www.youtube.com/results?search_query=qntlc" class="text-blue-500 hover:text-indigo-900 transition duration-300 ease-in-out">Explora su canal</a>
+                </div>
+            </article>
+
+            <!-- Video 1: Comunidad Fricydim -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/VvRhG7JDBSI?si=mpxcxyT72jwjd5v_" title="Tratado de Escatologia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Tratado de Escatologia</h3>
+                    <p class="text-gray-600 my-4">Qué es el alma??, Qué es un ángel??, Que pasa luego de morir??...Descubre esto y más junto con el Pbro. Carlos Spahn de la comunidad Fricydim</p>
+                    <a href="https://www.youtube.com/results?search_query=fricydim" class="text-blue-500 hover:text-indigo-900 transition duration-300 ease-in-out">Explora su canal</a>
+
+                </div>
+            </article>
+
+            <!-- Video 3: Los Sacramentos -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe src="https://www.youtube.com/embed/cIu2A6y-P_M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Los 7 Sacramentos explicados</h3>
+                    <p class="text-gray-600">Un resumen claro y conciso sobre qué son los sacramentos y por qué son tan importantes en nuestra fe.</p>
+                </div>
+            </article>
+
+            <!-- Video 4: La vida de un Santo -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe src="https://www.youtube.com/embed/5Y2K5kGKdC4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">La Historia de San Francisco de Asís</h3>
+                    <p class="text-gray-600">Descubre la inspiradora vida de San Francisco de Asís, un ejemplo de humildad, servicio y amor a la creación.</p>
+                </div>
+            </article>
+
+            <!-- Video 5: El Credo -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe src="https://www.youtube.com/embed/8mcj3a8lCgA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">El Credo de los Apóstoles, explicado</h3>
+                    <p class="text-gray-600">Entiende cada parte de nuestra profesión de fe con este video que desglosa el Credo de forma sencilla.</p>
+                </div>
+            </article>
+            
+            <!-- Video 6: Parábola del Buen Samaritano -->
+            <article class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <div class="video-container rounded-t-lg">
+                    <iframe src="https://www.youtube.com/embed/NK_dZls0T8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2 text-gray-800">Parábola del Buen Samaritano</h3>
+                    <p class="text-gray-600">Una bella animación de una de las parábolas más importantes de Jesús sobre el amor al prójimo.</p>
+                </div>
+            </article>
+
+        </div>
+
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="bg-teal-800 text-white mt-12">
+        <div class="container mx-auto px-6 py-4 text-center">
+            <p>&copy; 2024 Familia y Fe. Todos los derechos reservados.</p>
+            <p class="text-sm mt-1 text-teal-200">Un recurso para la evangelización digital.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
